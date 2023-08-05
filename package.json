@@ -129,9 +129,9 @@
   
   },
   
-  "main": "dist/index.js",
+  "main": "dist/index.jsx",
   
-  "module": "dist/index.js",
+  "module": "dist/index.jsx",
   
   "files": [
   
