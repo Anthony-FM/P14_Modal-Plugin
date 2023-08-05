@@ -9,8 +9,7 @@ A simple Modal component for React. This component render a modal with a message
 React
 NPM
 # Installation:
-npm i p14-modal-afm
-
+npm i p14-modal-plugin-afm
 ## Exemple:
 // import our component
 import Modal from 'p14-modal-afm'
