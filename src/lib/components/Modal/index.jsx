@@ -1,4 +1,5 @@
 import './index.css'
+import React from 'react'
 
 /**
  * Create a modal that takes up the entire screen 
