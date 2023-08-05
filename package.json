@@ -2,7 +2,7 @@
   
   "name": "p14-modal-plugin-afm",
   
-  "version": "0.1.5",
+  "version": "0.1.6",
   
   "dependencies": {
   
@@ -152,5 +152,17 @@
   "url": "https://github.com/Anthony-FM/P14_Modal-Plugin.git"
   
   },
-  "keywords": ["React modal", "modal", "react"]
+  
+  "keywords": [
+  
+    
+  "React modal",
+  
+    
+  "modal",
+  
+    
+  "react"
+  
+  ]
 }
