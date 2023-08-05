@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container > button{
+    padding: 2%;
+    font-family: 'Roboto', Helvetica, sans-serif;
+    font-size: 2rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.container > button:hover{
+    transform: scale(1.01);
+}
+.container > button:active{
+    transform: scale(0.95);
+}
