@@ -1,168 +1,168 @@
 {
-  
+  
   "name": "p14-modal-plugin-afm",
-  
-  "version": "0.1.7",
-  
+  
+  "version": "0.1.8",
+  
   "dependencies": {
-  
-    
+  
+    
   "@testing-library/jest-dom": "^5.17.0",
-  
-    
+  
+    
   "@testing-library/react": "^13.4.0",
-  
-    
+  
+    
   "@testing-library/user-event": "^13.5.0",
-  
-    
+  
+    
   "web-vitals": "^2.1.4"
-  
+  
   },
-  
+  
   "scripts": {
-  
-    
+  
+    
   "start": "react-scripts start",
-  
-    
+  
+    
   "build": "react-scripts build",
-  
-    
+  
+    
   "test": "react-scripts test",
-  
-    
+  
+    
   "eject": "react-scripts eject",
-  
-    
+  
+    
   "build-dist": "rm -rf dist && NODE_ENV=production babel src/lib --out-dir dist --copy-files --ignore __tests__,spec.js,test.js,__snapshots__"
-  
+  
   },
-  
+  
   "eslintConfig": {
-  
-    
+  
+    
   "extends": [
-  
-    
-    
+  
+    
+    
   "react-app",
-  
-    
-    
+  
+    
+    
   "react-app/jest"
-  
-    
+  
+    
   ]
-  
+  
   },
-  
+  
   "browserslist": {
-  
-    
+  
+    
   "production": [
-  
-    
-    
+  
+    
+    
   ">0.2%",
-  
-    
-    
+  
+    
+    
   "not dead",
-  
-    
-    
+  
+    
+    
   "not op_mini all"
-  
-    
+  
+    
   ],
-  
-    
+  
+    
   "development": [
-  
-    
-    
+  
+    
+    
   "last 1 chrome version",
-  
-    
-    
+  
+    
+    
   "last 1 firefox version",
-  
-    
-    
+  
+    
+    
   "last 1 safari version"
-  
-    
+  
+    
   ]
-  
+  
   },
-  
+  
   "devDependencies": {
-  
-    
+  
+    
   "@babel/cli": "^7.22.9",
-  
-    
+  
+    
   "@babel/core": "^7.22.9",
-  
-    
+  
+    
   "@babel/preset-env": "^7.22.9",
-  
-    
+  
+    
   "react": "^18.2.0",
-  
-    
+  
+    
   "react-dom": "^18.2.0",
-  
-    
+  
+    
   "react-scripts": "5.0.1"
-  
+  
   },
-  
+  
   "peerDependencies": {
-  
-    
+  
+    
   "react": "^18.2.0",
-  
-    
+  
+    
   "react-dom": "^18.2.0"
-  
+  
   },
-  
+  
   "main": "dist/index.jsx",
-  
+  
   "module": "dist/index.jsx",
-  
+  
   "files": [
-  
-    
+  
+    
   "dist",
-  
-    
+  
+    
   "README.md"
-  
+  
   ],
-  
+  
   "repository": {
-  
-    
+  
+    
   "type": "git",
-  
-    
+  
+    
   "url": "https://github.com/Anthony-FM/P14_Modal-Plugin.git"
-  
+  
   },
-  
+  
   "keywords": [
-  
-    
+  
+    
   "React modal",
-  
-    
+  
+    
   "modal",
-  
-    
+  
+    
   "react"
-  
+  
   ]
 }
