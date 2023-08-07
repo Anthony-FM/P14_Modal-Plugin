@@ -15,7 +15,7 @@ npm i p14-modal-plugin-afm
 import Modal from 'p14-modal-afm'
 // import useState hook
 import {useState} from 'react'
-
+}
 export function myfunction(){
     const [modalState, setModalState] = useState(false)
     return <div>
@@ -31,6 +31,7 @@ export function myfunction(){
         
         </button>
     </div>
+}
 }
 
 ### Configuration:
