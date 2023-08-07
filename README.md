@@ -11,7 +11,7 @@ NPM
 # Installation:
 npm i p14-modal-plugin-afm
 ## Exemple:
-<code>
+``` Javascript
 // import our component
 import Modal from 'p14-modal-afm'
 // import useState hook
@@ -19,7 +19,7 @@ import {useState} from 'react'
 
 export function myfunction(){
     const [modalState, setModalState] = useState(false)
-    return <div>
+    return <>
         <button onClick={() => setModalState(true)}>
         {modalState === true ?
             <Modal 
@@ -31,9 +31,9 @@ export function myfunction(){
         } 
         
         </button>
-    </div>
+    </>
 }
-</code>
+```
 
 ### Configuration:
 The component needs two props :
